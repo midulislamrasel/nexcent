@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap");
+
+:root {
+  /* ===========Color============= */
+  --primary-color: #28cb8b;
+  --secondary-color: #263238;
+  --info-color: #2194f3;
+  --color-black: #363238;
+  --color-d_gray: #4d4d4d;
+  --color-gray: #717171;
+  --color-l_gray: #89939e;
+  --color-grey_blue: #abbed1;
+  --color-silver: #f5f7fa;
+  --color-white: #ffffff;
+  ---color-warning: #fbc02d;
+  ---color-Error: #e53835;
+  ---color-success: #2e7d31;
+
+  /* ===========Font Family============== */
+  --primary-font: "Inter", sans-serif;
+
+  /* ===========Font============== */
+  --font-heading-lg-a: 76px;
+  --font-heading-lg-b: 40px;
+  --font-heading-lg-c: 36px;
+  --font-heading-lg-d: 28px;
+  --font-heading-md-a: 64px;
+  --font-heading-md-b: 36px;
+  --font-heading-md-c: 28px;
+  --font-heading-md-d: 20px;
+
+  --font-body-lg-a: 28px;
+  --font-body-lg-b: 24px;
+  --font-body-lg-c: 20px;
+  --font-body-lg-d: 16px;
+  --font-body-md-a: 18px;
+  --font-body-md-b: 16px;
+  --font-body-md-c: 14px;
+  --font-body-md-d: 12px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button,
+input {
+  outline: none;
+  border: none;
+  background: none;
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+button,
+input,
+li {
+  font-family: var(--primary-font);
+}
