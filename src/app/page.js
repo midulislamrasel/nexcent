@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Navbar from "./components/Navbar/Navbar";
 
 export default function Home() {
   return (
     <main>
-      <h1 className="menu__arey">Hello</h1>
-      <a>Hello2</a>
+      <Navbar></Navbar>
     </main>
   );
 }
